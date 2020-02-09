@@ -9,6 +9,6 @@ group :test do
   gem "rspec"
 end
 
-# group :development do #Remove any duplicate entries and specify the gem only once (per group).
-#   gem "pry"
-# end 
+group :development do #Remove any duplicate entries and specify the gem only once (per group).
+  gem "pry"
+end 
